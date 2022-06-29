@@ -1,3 +1,6 @@
+
 $primary: red;
+
+@include media-breakpoint-up(md) { $primary: blue; }
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
